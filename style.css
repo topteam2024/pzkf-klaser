@@ -1,0 +1,238 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    min-height:100vh;
+    background-color: #eeeeee;
+}
+body >div {
+    margin:auto;
+}
+h1{
+    font-weight: 700;
+    color: rgb(109, 19, 19);
+    margin: 40px 10px 10px 10px;
+}
+h2{
+    font-weight: 700;
+    color: rgb(12, 20, 134);
+    margin: 10px 10px 10px 20px;
+}
+h4{
+    margin: 0px;
+}
+.kolekcja{
+    width:85%;
+    background-color: #ffffff;
+}
+.dane{
+    margin: 5px 10px 10px 30px;
+}
+p{
+    font-weight: 500;
+    color: rgb(67, 68, 68);
+    text-align: justify;
+    margin: 0px;
+}
+.polacz{
+    display: inline;
+}
+.opis{
+   margin-bottom: 20px;
+   margin-left: 30px;
+}
+.opis-level {
+    display:flex;
+    height: 35px;
+ }
+ .opis-level p{
+    margin-top: 8px;
+    margin-left: 10px;
+ }
+.opis-left{
+    width: 100px;
+    text-align: start;
+}
+.center{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding-bottom: 80px;
+}
+.znaczek{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px 10px 10px 10px;
+
+}
+.znaczek-gora{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgb(207, 203, 203);
+    border-width: 1px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.znaczek-gora2{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgb(207, 203, 203);
+    border-width: 1px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.z-gora-koperta{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgb(207, 203, 203);
+    border-width: 1px;
+    border-radius: 10px 10px 0px 0px;
+}
+.z-gora-folder{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid rgb(207, 203, 203);
+    border-width: 1px;
+    border-radius: 10px 10px 0px 0px;
+}
+.znaczek-nft{
+    display:block;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 110px;
+    background-color: #7342dc;
+    border-radius: 10px 10px 10px 10px;
+    justify-items: center;
+}
+.nft{
+    display:block;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 45px;
+    background-color: #7342dc;
+    border-radius: 10px 10px 10px 10px;
+    justify-items: center;
+}
+
+.znaczek-gora > img{
+    width:92%;
+    padding: 4%;
+}
+.znaczek-gora2 > img{
+    width:70%;
+    padding: 5% 15%;
+}
+.z-gora-koperta > img{
+    width:90%;
+    padding: 5% 5% 30.2% 5%;
+}
+.z-gora-folder > img{
+    width:90%;
+    padding: 5% 5% 5.44% 5%;
+}
+
+
+.znaczek-stopka{
+    background: ##00aa77;
+    background-image: url("4bg1.png"), url("4bg2.png");
+    background-repeat: repeat-x, repeat;
+    border: solid rgb(207, 203, 203);
+    border-width: 0px 1px 1px 1px;
+    border-radius: 0px 0px 10px 10px;
+}
+.of4{
+    flex-basis: 149px;
+}
+.z-nazwa{
+    flex-basis: 149px;
+}
+
+.z-nazwa p{
+    font-weight: 700;
+    margin-top: 7px;
+    color: rgb(45, 48, 49);
+    }
+
+.ico{
+    margin: 8px;
+    vertical-align: middle;
+}
+.stack{
+    width: 20px;
+    margin-left: 20px;
+}
+.calendar{
+    width: 18px;
+    margin-left: 20px;
+}
+.tag{
+    width: 20px;
+    margin-left: 20px;
+}
+.chain{
+    width: 23px;
+    margin-left: 15px;
+}
+.copy{
+    width: 18px;
+    margin-left: 18px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+.level{
+    display:flex;
+    height: 35px;
+}
+.level2{
+    display:flex;
+    height: 45px;
+}
+.level3{
+    display:inline-flex;
+    height: 15px;
+}
+.of4 p{
+   font-size: 0.85rem;
+}
+.token-color{
+    color: #7342dc;
+}
+.czy-fizyk-color{
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+#contract{
+    margin-left: 0px;
+}
+
+.two-lines{
+    flex-basis: 149px;
+}
+.two-lines p{
+    margin-top: 2px;
+    color: rgb(45, 48, 49);
+    }
+.mini{
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+.midi{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.bold{
+    font-weight: 700;
+}
